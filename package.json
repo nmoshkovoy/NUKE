@@ -1,1 +1,19 @@
-{"name":"math-study-studio","version":"1.0.0","private":true,"type":"module","scripts":{"dev":"vite --host 0.0.0.0","build":"vite build","preview":"vite preview --host 0.0.0.0"},"dependencies":{"katex":"^0.16.22","vite":"^7.1.0"}}
+{
+  "name": "nuke-study",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node server/index.js",
+    "build": "vite build",
+    "preview": "vite preview --host 0.0.0.0",
+    "test": "node server/lesson.test.js"
+  },
+  "dependencies": {
+    "katex": "^0.16.22",
+    "vite": "^7.1.0"
+  },
+  "engines": {
+    "node": ">=22.12.0"
+  }
+}
